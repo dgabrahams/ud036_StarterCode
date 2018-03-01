@@ -1,3 +1,13 @@
+__author__ = "Daniel Abrahams"
+__copyright__ = "Copyright 2018, Danel Abrahams"
+__credits__ = ["Daniel Abrahams"]
+__license__ = "GPL"
+__version__ = "1.0.1"
+__maintainer__ = "Daniel Abrahams"
+__email__ = "10762864+dgabrahams@users.noreply.github.com"
+__status__ = "Production"
+
+
 class Movie():
     '''
       Creates an instance of the Movie Object.
