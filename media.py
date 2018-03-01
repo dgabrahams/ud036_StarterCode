@@ -1,6 +1,7 @@
 class Movie():
     '''
-      Class level Comment
+      Creates an instance of the Movie Object.
+      This object holds information about a film to be used later.
     '''
     def __init__(self, title, poster_image_url, trailer_youtube_url):
         self.title = title
