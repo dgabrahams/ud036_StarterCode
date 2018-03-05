@@ -7,7 +7,7 @@ The instructions in this readme will get a copy of the project up and running on
 
 ### Prerequisites
 
-To run this program only Python is required. It was designed and tested on Python 2.7.10. Check if you have python installed.
+It is assumed that an active connection to the internet will be available at all times. To run this program only Python and GIT are required. It was designed and tested on Python 2.7.10. Check if you have python installed.
 
 MAC
 Most Macs come with Python 2.7 already installed, but it’s good to double-check the version. To determine whether you have Python 2.7, open the Terminal application, type the following, and press Return:
@@ -47,17 +47,29 @@ Python is available for download here:
 https://www.python.org/downloads/
 
 
+To test if you have GIT on Terminal (Linux, macOS) or Command prompt (Windows) use:
+```
+git --version 
+```
 
+Which if installed should produce an output similar to:
 ```
-Give examples
+git version 2.3.2
 ```
+
+If an supported version is seen or the command itself isn't recognised, then GIT will need to be installed. Please see the link below for furthe rinstructions on installing GIT:
+https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+
 
 ### Installing
 
-Visit this git : https://github.com/dgabrahams/ud036_StarterCode
-or
-clone: https://github.com/dgabrahams/ud036_StarterCode.git
-connection to the internet required
+To install the application, assuming that the required prerequistite software is installed, use GIT to either clone the repo, or download it.
+
+Download:
+https://github.com/dgabrahams/ud036_StarterCode
+
+Clone: https://github.com/dgabrahams/ud036_StarterCode.git
+
 
 
 ```
@@ -92,5 +104,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Some components such as 'fresh_tomatos.py' has taken from xxx
+* Some components such as 'fresh_tomatoes.py' has taken from xxx
 
