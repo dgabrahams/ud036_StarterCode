@@ -65,13 +65,7 @@ https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
 ### Installing
 
-To install the application, assuming that the required prerequistite software is installed, use GIT to either clone the repo, or download it.
-
-Download:
-https://github.com/dgabrahams/ud036_StarterCode
-
-//LIST WHAT TO DO WITH A DOWNLOAD
-
+To install the application, assuming that the required prerequistite software is installed, use GIT to clone the repository.
 
 Clone: https://github.com/dgabrahams/ud036_StarterCode.git
 
@@ -94,28 +88,13 @@ To run simply type the following:
 python entertainment_center.py
 ```
 
-This should open a browser and it should contain the 3 movies listed in entertainment_center.py plus be interactive as setout in the project specification. The project specification can be found in the link below:
-https://classroom.udacity.com/nanodegrees/nd004/parts/fe2ad0cf-06b0-4541-87ab-0b6d59e21ef1/modules/3a35570a-8e9d-4088-96d0-3dbe22d1fcb6/lessons/3561209451239847/concepts/36057486950923
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+This should open a browser which will display the 3 movies listed in 'entertainment_center.py' plus be interactive as setout in the project specification.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License.
 
 ## Acknowledgments
 
-* Some components such as 'fresh_tomatoes.py' has taken from xxx
+* The file 'fresh_tomatoes.py' was taken from ud036_StarterCode by adarsh0806:  https://github.com/udacity/ud036_StarterCode
 
