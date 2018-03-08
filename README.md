@@ -7,7 +7,9 @@ The instructions in this readme will get a copy of the project up and running on
 
 ### Prerequisites
 
-It is assumed that an active connection to the internet will be available at all times. To run this program only Python and GIT are required. It was designed and tested on Python 2.7.10. Check if you have python installed.
+It is assumed that an active connection to the internet will be available at all times. To run this program Python and GIT are required, plus access to Terminal (MAC Linux) or Command Prompt (Windows). Also required is that a web browser be installed. It was designed and tested using Python 2.7.10.
+
+Check if you have python installed:
 
 MAC
 Most Macs come with Python 2.7 already installed, but it’s good to double-check the version. To determine whether you have Python 2.7, open the Terminal application, type the following, and press Return:
@@ -68,21 +70,32 @@ To install the application, assuming that the required prerequistite software is
 Download:
 https://github.com/dgabrahams/ud036_StarterCode
 
+//LIST WHAT TO DO WITH A DOWNLOAD
+
+
 Clone: https://github.com/dgabrahams/ud036_StarterCode.git
 
-
-
+To clone run:
 ```
-Give the example
-```
-
-And repeat
-
-```
-until finished
+git clone https://github.com/dgabrahams/ud036_StarterCode.git
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+It should build into your current working folder, and produce an output similar to that found below:
+```
+Cloning into 'ud036_StarterCode'...
+remote: Counting objects: 29, done.
+remote: Total 29 (delta 0), reused 0 (delta 0), pack-reused 29
+Unpacking objects: 100% (29/29), done.
+Checking connectivity... done.
+```
+
+To run simply type the following:
+```
+python entertainment_center.py
+```
+
+This should open a browser and it should contain the 3 movies listed in entertainment_center.py plus be interactive as setout in the project specification. The project specification can be found in the link below:
+https://classroom.udacity.com/nanodegrees/nd004/parts/fe2ad0cf-06b0-4541-87ab-0b6d59e21ef1/modules/3a35570a-8e9d-4088-96d0-3dbe22d1fcb6/lessons/3561209451239847/concepts/36057486950923
 
 ## Contributing
 
