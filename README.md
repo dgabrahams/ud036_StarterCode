@@ -1,7 +1,8 @@
 # ud036_StarterCode
 Source code for a Movie Trailer website.
 
-## Overview
+### Overview
+---
 
 The instructions in this readme will get a copy of the project up and running on a local machine for development and testing purposes.
 
@@ -100,12 +101,12 @@ python entertainment_center.py
 
 This should open a browser which will display the 3 movies listed in 'entertainment_center.py' plus be interactive as set out in the project specification.
 
-## License
+### License
 ---
 
 This project is licensed under the MIT License.
 
-## Acknowledgments
+### Acknowledgments
 ---
 
 * The file 'fresh_tomatoes.py' was taken from ud036_StarterCode by adarsh0806:  https://github.com/udacity/ud036_StarterCode
