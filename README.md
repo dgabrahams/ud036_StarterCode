@@ -2,16 +2,19 @@
 Source code for a Movie Trailer website.
 
 ## Overview
+---
 
 The instructions in this readme will get a copy of the project up and running on a local machine for development and testing purposes.
 
 ### Prerequisites
+---
 
 It is assumed that an active connection to the internet will be available at all times. To run this program Python and GIT are required, plus access to Terminal (MAC Linux) or Command Prompt (Windows). Also required is that a web browser be installed. It was designed and tested using Python 2.7.10.
 
 Check if you have python installed:
 
 MAC
+
 Most Macs come with Python 2.7 already installed, but it’s good to double-check the version. To determine whether you have Python 2.7, open the Terminal application, type the following, and press Return:
 ```
 python -V
@@ -24,6 +27,7 @@ Python 2.7.3
 
 
 WINDOWS 7
+
 To get to the command line, open the Windows menu and type “command” in the search bar. Select Command Prompt from the search results.
 
 In the Command Prompt window, type the following and press Enter.
@@ -83,12 +87,17 @@ Unpacking objects: 100% (29/29), done.
 Checking connectivity... done.
 ```
 
+Navigate into the newly created 'ud036_StarterCode' folder:
+```
+cd ud036_StarterCode
+```
+
 To run simply type the following:
 ```
 python entertainment_center.py
 ```
 
-This should open a browser which will display the 3 movies listed in 'entertainment_center.py' plus be interactive as setout in the project specification.
+This should open a browser which will display the 3 movies listed in 'entertainment_center.py' plus be interactive as set out in the project specification.
 
 ## License
 
