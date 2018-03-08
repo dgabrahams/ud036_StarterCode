@@ -2,7 +2,6 @@
 Source code for a Movie Trailer website.
 
 ## Overview
----
 
 The instructions in this readme will get a copy of the project up and running on a local machine for development and testing purposes.
 
@@ -24,6 +23,7 @@ This command will report the version of Python:
 ```
 Python 2.7.3
 ```
+
 
 
 WINDOWS 7
@@ -68,6 +68,7 @@ https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
 
 ### Installing
+---
 
 To install the application, assuming that the required prerequistite software is installed, use GIT to clone the repository.
 
@@ -100,10 +101,12 @@ python entertainment_center.py
 This should open a browser which will display the 3 movies listed in 'entertainment_center.py' plus be interactive as set out in the project specification.
 
 ## License
+---
 
 This project is licensed under the MIT License.
 
 ## Acknowledgments
+---
 
 * The file 'fresh_tomatoes.py' was taken from ud036_StarterCode by adarsh0806:  https://github.com/udacity/ud036_StarterCode
 
