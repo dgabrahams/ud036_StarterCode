@@ -69,7 +69,7 @@ https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 ### Installing
 ---
 
-To install the application, assuming that the required prerequistite software is installed, use GIT to clone the repository.
+To install the application, assuming that the required prerequisite software is installed, use GIT to clone the repository.
 
 Clone: https://github.com/dgabrahams/ud036_StarterCode.git
 
