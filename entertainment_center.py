@@ -18,7 +18,10 @@ __maintainer__ = "Daniel Abrahams"
 __email__ = "10762864+dgabrahams@users.noreply.github.com"
 __status__ = "Production"
 
-
+'''
+    This dictionary stores movie meta data to be used when running the
+    application.
+'''
 movie_list = {
   "starship_troopers": {
     "title": "Starship Troopers",
@@ -36,8 +39,17 @@ movie_list = {
     "trailer_youtube_url": "https://youtu.be/YXZ4u2ZVWOc"
   }
 }
+
+'''
+    Array used for storing the movie meta data in a suitable format for
+    fresh_tomatoes.open_movies_page
+'''
 movies = []
 
+'''
+    Iterates over the movie_list dictionary and adds the required data
+    to the 'movies' array.
+'''
 for item in movie_list:
     movie = media.Movie(
       movie_list[item]["title"],
@@ -46,4 +58,8 @@ for item in movie_list:
       )
     movies.append(movie)
 
+'''
+    Calls fresh_tomatoes.open_movies_page function from 'fresh_tomatoes' 
+    import and passes in the 'movies' dictionary as an argument.
+'''
 fresh_tomatoes.open_movies_page(movies)
