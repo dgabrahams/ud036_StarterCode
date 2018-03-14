@@ -59,7 +59,7 @@ for item in movie_list:
     movies.append(movie)
 
 '''
-    Calls fresh_tomatoes.open_movies_page function from 'fresh_tomatoes' 
+    Calls fresh_tomatoes.open_movies_page function from 'fresh_tomatoes'
     import and passes in the 'movies' dictionary as an argument.
 '''
 fresh_tomatoes.open_movies_page(movies)
