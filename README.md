@@ -62,7 +62,7 @@ Which if installed should produce an output similar to:
 git version 2.3.2
 ```
 
-If an supported version is seen or the command itself isn't recognised, then GIT will need to be installed. Please see the link below for furthe rinstructions on installing GIT:
+If an supported version is seen or the command itself isn't recognised, then GIT will need to be installed. Please see the link below for further instructions on installing GIT:
 https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
 
