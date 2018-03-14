@@ -1,13 +1,12 @@
-#calling the constructor media.Movie() to instantiate movie objects. 
-#You've given movies their own custom data structure by defining the movie class and constructor, 
-#and now these objects can be stored in a list data structure. This list of movies is what the 
-#open_movies_page() function needs as input in order to build the HTML file, so you can display your website.
 
 import media
 import fresh_tomatoes
 
 '''
-    This file does stuff
+    This file creates a Dictionary of movie files and associated meta data,
+    creates a data structure of this dictionary in memory and then runs
+    the fresh_tomatoes.open_movies_page function to initiate the
+    application.
 '''
 
 __author__ = "Daniel Abrahams"
